@@ -1,6 +1,6 @@
 <template>
   <div class="card bg-background p-4 rounded-lg shadow-md">
-    <div class="relative image_card bg-gray-800 rounded-t-lg">
+    <div class="relative image_card bg-gray-900 rounded-t-lg">
       <img :src="image" alt="Image" class="rotated-img object-cover mb-4">
       <div
           class="absolute top-2 left-2 bg-gray-700 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm">

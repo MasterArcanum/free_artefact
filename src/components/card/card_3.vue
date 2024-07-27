@@ -17,7 +17,7 @@
 
 <script>
 export default {
-  name: 'Card_1',
+  name: 'card_3',
   props: {
     image: {
       type: String,
@@ -82,10 +82,14 @@ export default {
 }
 
 .rotated-img {
-  transform: rotate(90deg);
-  width: 120px;
-  height: 223px;
+
+  transform: rotate(-180deg);
+  width: 204px;
+  height: 120px;
+  top: 640px;
+  left: 964px;
+  gap: 0px;
   margin: 0 auto;
-  border: none; /* Убираем обводку */
+  angle: -180 deg;
 }
 </style>
