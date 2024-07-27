@@ -9,7 +9,7 @@
     </div>
     <h3 class="text-white font-cormorant text-xl font-bold mb-2">{{ title }}</h3>
     <p class="text-white font-open-sans text-sm mb-4">{{ description }}</p>
-    <button class="btn-primary mt-5">
+    <button class="btn-primary mt-10">
       Подробнее
     </button>
   </div>
@@ -82,16 +82,13 @@ export default {
 }
 
 .rotated-img {
-  transform: rotate(180deg);
   width: 204px;
   height: 120px;
   top: 640px;
   left: 964px;
   gap: 0px;
-
-  margin: 0 auto;
   opacity: 0px;
-  angle: -90 deg;
+  angle: -180deg;
 
 }
 </style>

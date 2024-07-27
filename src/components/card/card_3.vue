@@ -1,7 +1,7 @@
 <template>
   <div class="card bg-background p-4 rounded-lg shadow-md">
     <div class="relative image_card bg-gray-900 rounded-t-lg">
-      <img :src="image" alt="Image" class="rotated-img object-cover mb-4">
+      <img :src="image" alt="Image" class="rotated-img object-cover py-6">
       <div
           class="absolute top-2 left-2 bg-gray-700 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm">
         {{ number }}
@@ -9,7 +9,7 @@
     </div>
     <h3 class="text-white font-cormorant text-xl font-bold mb-2">{{ title }}</h3>
     <p class="text-white font-open-sans text-sm mb-4">{{ description }}</p>
-    <button class="btn-primary">
+    <button class="btn-primary mt-5">
       Подробнее
     </button>
   </div>
@@ -17,7 +17,7 @@
 
 <script>
 export default {
-  name: 'card_3',
+  name: 'Card_2',
   props: {
     image: {
       type: String,
@@ -82,14 +82,13 @@ export default {
 }
 
 .rotated-img {
-
-  transform: rotate(-180deg);
   width: 204px;
   height: 120px;
   top: 640px;
   left: 964px;
   gap: 0px;
-  margin: 0 auto;
-  angle: -180 deg;
+  opacity: 0px;
+  angle: -180deg;
+
 }
 </style>

@@ -44,7 +44,7 @@ export default {
 }
 
 .block-1_text {
-  margin-left: 300px;
+  margin-left: 330px;
 }
 
 .font-cormorant {

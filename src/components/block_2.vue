@@ -58,7 +58,7 @@ export default {
 }
 
 .Card_1, .Card_2, .Card_3, .Card_4 {
-  flex: 1 1 calc(25% - 2rem); /* 4 cards per row */
+  flex: 1 1 calc(25% - 2rem);
   margin: 1rem;
   width: 250px;
   height: 400px;
@@ -66,19 +66,19 @@ export default {
 
 @media (max-width: 1200px) {
   .Card_1, .Card_2, .Card_3, .Card_4 {
-    flex: 1 1 calc(33.33% - 2rem); /* 3 cards per row */
+    flex: 1 1 calc(33.33% - 2rem);
   }
 }
 
 @media (max-width: 900px) {
   .Card_1, .Card_2, .Card_3, .Card_4 {
-    flex: 1 1 calc(50% - 2rem); /* 2 cards per row */
+    flex: 1 1 calc(50% - 2rem);
   }
 }
 
 @media (max-width: 600px) {
   .Card_1, .Card_2, .Card_3, .Card_4 {
-    flex: 1 1 100%; /* 1 card per row */
+    flex: 1 1 100%;
     margin: 0.5rem 0;
   }
 }
