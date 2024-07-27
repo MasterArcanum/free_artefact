@@ -27,3 +27,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 </style>
+
+
+<!--макет-->
+<!--https://www.figma.com/design/fG61Ja1ye0jtkKbuvt9OR0/Коллекция-природных-артефактов?node-id=13-0&t=PIaZW6LKK3p8s2vt-0-->
